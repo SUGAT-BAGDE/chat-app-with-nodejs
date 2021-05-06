@@ -1,4 +1,4 @@
-const socket =io("http://localhost");
+const socket =io("https://sugatichat.herokuapp.com/");
 
 const chatelement = document.getElementById('chat');
 const messtosend = document.getElementById('message');
