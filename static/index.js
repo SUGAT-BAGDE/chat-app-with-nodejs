@@ -12,6 +12,9 @@ function append(mess, cls, cls2) {
 }
 
 const name = prompt("What is The name you wish to join as?");
+if (name == "") {
+    window.location.reload()    
+}
 
 socket.emit("new-user-joined", name);
 
